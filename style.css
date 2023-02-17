@@ -28,31 +28,31 @@ body{
     grid-column-start: 1;
     grid-column-end: 3;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 0.8fr 1fr;
     grid-template-rows: 1fr;
     /* column-gap: 2%; */
-    row-gap: 5%;
 }
 
 .text{
     background-color: hsl(300, 43%, 22%);
     color: hsl(0, 0%, 100%);
+    border-radius: 10px;
 }
 
 .tx1{
-    width: 70%;
+    width: 45vh;
     justify-self: end;
-    margin: 0 0 35% 15%;
+    margin: 10% 0 25% 20%;
 }
 
 .tx2{
-    width: 70%;
+    width: 45vh;
     justify-self: center;
-    margin: 5% 0 30% 0;
+    margin: 17% 0 27% 0;
 }
 
 .tx3{
-    width: 70%;
+    width: 45vh;
     justify-self: start;
-    margin: 10% 15% 25% 0;
+    margin: 17% 20% 17% 0;
 }
