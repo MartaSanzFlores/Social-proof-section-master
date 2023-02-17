@@ -21,7 +21,7 @@ body{
 .aside{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 0.6fr 1fr;
 }
 
 .section{
@@ -40,19 +40,41 @@ body{
 }
 
 .tx1{
-    width: 45vh;
+    width: 70%;
     justify-self: end;
     margin: 10% 0 25% 20%;
 }
 
 .tx2{
-    width: 45vh;
+    width: 85%;
     justify-self: center;
     margin: 17% 0 27% 0;
 }
 
 .tx3{
-    width: 45vh;
+    width: 70%;
     justify-self: start;
     margin: 17% 20% 17% 0;
+}
+
+.stars{
+    background-color: hsl(300, 24%, 96%);
+    width: 60%;
+    height: 35%;
+}
+
+.st1{
+    
+    align-self: end;
+}
+
+.st2{
+    
+    align-self: center;
+    height: 55%;
+}
+
+.st3{
+    
+    align-items: start;
 }
