@@ -66,6 +66,14 @@ h1{
     height: 45%;
     margin-left: 18%;
 }
+
+.aside div{
+    
+}
+.aside img{
+    
+}
+
 .section{
     grid-column-start: 1;
     grid-column-end: 3;
