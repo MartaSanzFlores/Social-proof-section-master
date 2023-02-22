@@ -45,7 +45,7 @@ h1{
 
 .stars{
     background-color: hsl(300, 24%, 96%);
-    width: 60%;
+    width: 55%;
     border-radius: 10px;
     font-family: 'League Spartan', sans-serif;
 }
@@ -67,12 +67,21 @@ h1{
     margin-left: 18%;
 }
 
-.aside div{
-    
-}
 .aside img{
-    
+    position: relative;
+    margin: 0% 1%;
 }
+
+.aside h2{
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+
+.lastimg{
+    padding-right: 5%;
+}
+
 
 .section{
     grid-column-start: 1;
