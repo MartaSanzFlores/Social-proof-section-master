@@ -182,26 +182,24 @@ section img{
 
     .aside{
         grid-template-rows: 1fr 1fr 1fr;
-
         font-size: 1.2em;
     }
 
     .stars{
         width: 90%;
-        align-items: center;
         margin: auto;
-        height: auto;
-        align-self: center;
+        height: 80%;
+        padding: 5%;
     }
 
     .aside h2{
-        display: flex;
-        justify-content: center;
-        margin: 5%;
+        position: relative;
+        bottom: 15px;
     }
 
-    .aside img{
-        margin: 0 1%;
+    .aside span{
+        position: absolute;
+        margin: 8% 0;
     }
 
     h1{
