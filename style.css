@@ -139,3 +139,46 @@ section img{
     margin: 3% 2.5%;
 }
 
+
+@media screen and (max-width: 650px) {
+
+    body{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .header{
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    .aside{
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    .section{
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    section img{
+        width: 10%;
+        margin: 10% 9.5%;
+    }
+
+    .text{
+        justify-self: center;
+        margin: 3% 0;
+        width: 80%;
+        row-gap: 5%;
+    }
+
+    .text p{
+        margin: 10% 11%;
+        line-height: 1.5em;
+        font-weight: 100;
+    }
+    
+}
+
